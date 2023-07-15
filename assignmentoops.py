@@ -16,7 +16,10 @@ class Calculator:
         return self.num2 / self.num1
 
 
-obj = Calculator(10, 94)
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+
+obj = Calculator(num1, num2)
 print(obj.add())      
 print(obj.subtract()) 
 print(obj.multiply()) 
